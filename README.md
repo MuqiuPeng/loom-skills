@@ -10,6 +10,11 @@ cd loom-skills
 bash install.sh
 ```
 
+`install.sh` symlinks each skill into `~/.claude/skills`, so **keep the clone
+where it is** — moving or deleting it takes the skills with it. Updating is
+`git pull` in the clone; nothing to reinstall. To remove one, delete its link:
+`rm ~/.claude/skills/analyze-repo`.
+
 ## Login
 
 In Claude Code:
